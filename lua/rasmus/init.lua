@@ -245,7 +245,7 @@ local set_groups = function()
     DiagnosticError = { fg = c.red }, -- base highlight group for "Error"
     DiagnosticWarn = { fg = c.yellow }, -- base highlight group for "Warning"
     DiagnosticInfo = { fg = c.blue }, -- base highlight group from "Information"
-    DiagnosticHint = { fg = c.cyan }, -- base highlight group for "Hint"
+    DiagnosticHint = { fg = c.yellow }, -- base highlight group for "Hint"
     DiagnosticUnderlineError = { fg = c.red, undercurl = true, sp = c.red }, -- used to underline "Error" diagnostics.
     DiagnosticUnderlineWarn = { fg = c.yellow, undercurl = true, sp = c.yellow }, -- used to underline "Warning" diagnostics.
     DiagnosticUnderlineInfo = { fg = c.blue, undercurl = true, sp = c.blue }, -- used to underline "Information" diagnostics.
@@ -266,11 +266,11 @@ local set_groups = function()
     LspDiagnosticsFloatingInformation = { fg = c.blue, bold = true }, -- used for "Information" diagnostic messages in the diagnostics float
     LspDiagnosticsVirtualTextInformation = { fg = c.blue, bold = true }, -- Virtual text "Information"
     LspDiagnosticsUnderlineInformation = { fg = c.blue, undercurl = true, sp = c.blue }, -- used to underline "Information" diagnostics.
-    LspDiagnosticsDefaultHint = { fg = c.cyan }, -- used for "Hint" diagnostic virtual text
-    LspDiagnosticsSignHint = { fg = c.cyan }, -- used for "Hint" diagnostic signs in sign column
-    LspDiagnosticsFloatingHint = { fg = c.cyan, bold = true }, -- used for "Hint" diagnostic messages in the diagnostics float
-    LspDiagnosticsVirtualTextHint = { fg = c.cyan, bold = true }, -- Virtual text "Hint"
-    LspDiagnosticsUnderlineHint = { fg = c.cyan, undercurl = true, sp = c.cyan }, -- used to underline "Hint" diagnostics.
+    LspDiagnosticsDefaultHint = { fg = c.yellow }, -- used for "Hint" diagnostic virtual text
+    LspDiagnosticsSignHint = { fg = c.yellow }, -- used for "Hint" diagnostic signs in sign column
+    LspDiagnosticsFloatingHint = { fg = c.yellow, bold = true }, -- used for "Hint" diagnostic messages in the diagnostics float
+    LspDiagnosticsVirtualTextHint = { fg = c.yellow, bold = true }, -- Virtual text "Hint"
+    LspDiagnosticsUnderlineHint = { fg = c.yellow, undercurl = true, sp = c.cyan }, -- used to underline "Hint" diagnostics.
     -- Plugins highlight groups
     -- LspTrouble
     LspTroubleText = { fg = c.gray04 },
